@@ -1,4 +1,4 @@
-# 🌳 Grundy Game State Tree Solver
+Así?# 🌳 Grundy Game State Tree Solver
 
 Implementación algorítmica y visualización en Python para el modelado del árbol de espacio de estados en el **Juego de Grundy** (Teoría de Juegos) utilizando grafos dirigidos.
 
@@ -20,24 +20,8 @@ Este script permite calcular recursivamente todos los movimientos válidos e ide
 - **Matplotlib:** Visualización y renderizado gráfico del árbol de espacio de estados.
 - **Graphviz / PyDot (Opcional):** Para el diseño de layout jerárquico (`dot`).
 
-## 💻 Ejemplo de Uso
-
-```python
-import networkx as nx
-from grundy_solver import calcular_grundy
-
-# Crear el grafo dirigido
-G = nx.DiGraph()
-
-# Generar el árbol de estados a partir de un montón inicial de 9 elementos
-calcular_grundy([9], G)
-
-```
-
 ## 📊 Salida Visual
 
-```
-![Árbol de Espacio de Estados](./images/grundy_tree_output.png) 
-```
+./images/grundy_tree_output.png
 
-
+---
