@@ -1,9 +1,3 @@
-¡Te quedó genial! Solo hay un **pequeño detalle de formato** en la última línea para que el título de la imagen se renderice como un encabezado real en GitHub.
-
-Faltan las etiquetas de Markdown (`##`) antes de "Salida visual" y un salto de línea antes de la imagen.
-
-Aquí tienes el ajuste exacto para corregir ese final:
-
 ```markdown
 # 🌳 Grundy Game State Tree Solver
 
@@ -45,6 +39,6 @@ calcular_grundy([9], G)
 
 ```
 ![Árbol de Espacio de Estados](./images/grundy_tree_output.png) 
-
+```
 ---
 
